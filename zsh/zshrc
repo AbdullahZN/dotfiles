@@ -1,0 +1,16 @@
+export ZSHRC=$HOME/.dotfiles/zshrc
+export CODE=$HOME/code
+export WORK=$HOME/work
+
+
+ZSH_THEME="maran"
+
+plugins=(git)
+
+[[ -a ~/.zshrc ]] && source ~/.zshrc
+
+export PATH=$HOME/.composer/vendor/bin:$PATH
+source $ZSH/oh-my-zsh.sh
+
+source $ZSHRC/aliases
+source $ZSHRC/funcs

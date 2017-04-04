@@ -1,0 +1,70 @@
+alias la="clear ; ls -la"
+alias nano="sudo nano"
+alias gz="gzip -9"
+alias s="open -a 'Sublime Text'"
+alias w="cd ~/work"
+alias c="cd ~/code"
+
+alias mysql="mysql -h 127.0.0.1 -P 3306 -u root -p"
+alias mysqladmin="mysqladmin -h 127.0.0.1 -P 3306 -u root -p"
+alias mysqldump="mysqldump -h 127.0.0.1 -P 3306 -u root -p"
+
+alias ze="open -a 'Sublime Text' ~/.zshrc"
+alias zs="source ~/.zshrc"
+
+# -------------------------------------------------------------------
+# DRUPAL
+# -------------------------------------------------------------------
+
+alias drupal="./vendor/bin/drupal"
+alias dcl="drupal cr all"
+
+# -------------------------------------------------------------------
+# LARAVEL
+# -------------------------------------------------------------------
+
+alias art="php artisan"
+
+# -------------------------------------------------------------------
+# Vagrant
+# -------------------------------------------------------------------
+
+alias vu="vagrant up"
+alias vs="vagrant ssh"
+alias vh="vagrant halt"
+alias vr="vagrant reload"
+alias vp="vagrant provision"
+
+# -------------------------------------------------------------------
+# Git
+# -------------------------------------------------------------------
+
+alias ga='git add'
+alias gp='git push'
+alias gpm="git push origin master"
+alias gl='git log --pretty=format:"%h %ad | %s%d [%an]" --date=short'
+alias gs='git status'
+alias gd='git diff'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gpu='git pull'
+alias gpum='git pull origin master'
+alias gcl='git clone'
+
+alias hp="gp heroku master"
+alias ha="heroku auth:token"
+
+# -------------------------------------------------------------------
+# NGINX
+# -------------------------------------------------------------------
+
+alias nc='s /usr/local/etc/nginx/nginx.conf'
+alias ne='s /usr/local/etc/nginx/sites-available'
+alias nr='sudo brew services restart nginx'
+alias nt='sudo nginx -t'
+alias nf='cd /usr/local/etc/nginx/'
+alias nh='s /etc/hosts'

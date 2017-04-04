@@ -1,0 +1,4 @@
+vendor 
+ sites/default/settings.php 
+ modules/contrib/devel 
+
